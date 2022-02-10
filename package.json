@@ -1,34 +1,33 @@
 {
-  "name": "container-query-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "demos/container-query/index.html",
-  "scripts": {
-    "start": "npm-p watch server",
-    "server": "serve demos/container-query",
-    "watch": "tsc --build --watch",
-    "build": "tsc --build"
-  },
-  "keywords": ["lit", "reactive-controllers"],
-  "author": "castastrophe",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "@types/node": "^16.3.3",
-    "serve": "^11.2.0",
-    "npm-run-all": "^4.1.5",
-    "lit": "^2.0.0",
-    "@lit/reactive-element": "1.0.0",
-    "@lit-labs/observers": "1.0.1",
-    "@spectrum-web-components/base": "0.5.1",
-    "lit-element": "3.0.0",
-    "lit-html": "^2.0.0",
-    "typescript": "4.5.4"
-  },
-  "dependencies": {
-    "@spectrum-web-components/action-menu": "0.13.6",
-    "@spectrum-web-components/card": "0.10.3",
-    "@spectrum-web-components/divider": "0.4.2",
-    "@spectrum-web-components/icons-workflow": "0.8.2",
-    "@spectrum-web-components/theme": "0.9.3"
-  }
+    "name": "reactive-mixins",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "start": "npm-s watch serve",
+        "watch": "tsc --build tsconfig.json --watch",
+        "build": "tsc --build tsconfig.json"
+    },
+    "keywords": ["lit", "reactive-controllers"],
+    "author": "castastrophe",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@types/node": "^16.3.3",
+        "serve": "^11.2.0",
+        "npm-run-all": "^4.1.5",
+        "typescript": "4.5.4"
+    },
+    "dependencies": {
+        "lit-element": "3.0.0",
+        "lit-html": "^2.0.0",
+        "lit": "^2.0.0",
+        "@lit/reactive-element": "1.0.0",
+        "@spectrum-web-components/base": "0.5.1",
+        "@lit-labs/observers": "1.0.1",
+        "@spectrum-web-components/action-menu": "0.13.6",
+        "@spectrum-web-components/card": "0.10.3",
+        "@spectrum-web-components/divider": "0.4.2",
+        "@spectrum-web-components/icons-workflow": "0.8.2",
+        "@spectrum-web-components/theme": "0.9.3"
+    }
 }

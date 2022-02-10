@@ -10,11 +10,11 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-import '@spectrum-web-components/theme@0.9.3/sp-theme.js';
-import '@spectrum-web-components/theme@0.9.3/src/themes.js';
+import '@spectrum-web-components/theme/sp-theme.js';
+import '@spectrum-web-components/theme/src/themes.js';
 
-import '@spectrum-web-components/action-menu@0.13.2/sp-action-menu.js';
-import '@spectrum-web-components/divider@0.4.1/sp-divider.js';
-import '@spectrum-web-components/icons-workflow@0.8.1/icons/sp-icon-show-menu.js';
-import '@spectrum-web-components/icons-workflow@0.8.1/icons/sp-icon-app.js';
-import '@spectrum-web-components/card@0.10.3/sp-card.js';
+import '@spectrum-web-components/action-menu/sp-action-menu.js';
+import '@spectrum-web-components/divider/sp-divider.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-show-menu.js';
+import '@spectrum-web-components/icons-workflow/icons/sp-icon-app.js';
+import '@spectrum-web-components/card/sp-card.js';

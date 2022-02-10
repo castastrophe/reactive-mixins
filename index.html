@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <script type="module" src="./demos/container-query/component-loader.ts"></script>
+    <script type="module" src="./demos/container-query/container.ts"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@spectrum-web-components/styles/typography.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@spectrum-web-components/styles/spectrum-scale-medium.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@spectrum-web-components/styles/spectrum-scale-large.css" />
+    <link rel="stylesheet" type="text/css" href="./demos/container-query/styles.css" />
+</head>
+<body>
+    <sp-theme color="dark" size="m">
+        <ue-container>
+            <sp-icon-app slot="start" size="m"></sp-icon-app>
+            <sp-divider vertical slot="start" xs:show></sp-divider>
+            <h2 slot="start" xs:show class="spectrum-Heading--sizeS">Words</h2>
+            <sp-action-button slot="end" quiet label="Menu" offset="-4">
+                <sp-icon-show-menu slot="icon"></sp-icon-show-menu>
+            </sp-action-button>
+        </ue-container>
+    </sp-theme>
+
+    <div id="document">
+        <sp-theme color="light" size="l">
+            <sp-card>
+                <span slot="heading">Active breakpoints</span>
+                <span id="container-results" slot="subheading"></span>
+                <div slot="footer">
+                    <p class="spectrum-Body--sizeXS">
+                        <span class="spectrum-Detail spectrum-Detail--sizeS spectrum-Detail--light">[New]</span>
+                        <span id="container-add"></span>
+                    </p>
+                    <p class="spectrum-Body--sizeXS">
+                        <span class="spectrum-Detail spectrum-Detail--sizeS spectrum-Detail--light">[Removed]</span>
+                        <span id="container-remove"></span>
+                    </p>
+                </div>
+            </sp-card>
+        </sp-theme>
+    </div>
+
+    <script type="module" src="./demos/container-query/listener.js"></script>
+</body>
