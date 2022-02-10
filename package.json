@@ -2,16 +2,18 @@
   "name": "container-query-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "demos/container-query/index.html",
   "scripts": {
-    "start": "npm-p watch serve",
-    "watch": "tsc --build tsconfig.json --watch",
-    "build": "tsc --build tsconfig.json"
+    "start": "npm-p watch server",
+    "server": "serve demos/container-query",
+    "watch": "tsc --build --watch",
+    "build": "tsc --build"
   },
-  "keywords": [],
+  "keywords": ["lit", "reactive-controllers"],
   "author": "castastrophe",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@types/node": "^16.3.3",
     "serve": "^11.2.0",
     "npm-run-all": "^4.1.5",
     "lit": "^2.0.0",
@@ -23,10 +25,10 @@
     "typescript": "4.5.4"
   },
   "dependencies": {
-    "@spectrum-web-components/theme": "0.9.3",
-    "@spectrum-web-components/action-menu": "0.13.2",
-    "@spectrum-web-components/divider": "0.4.1",
-    "@spectrum-web-components/icons-workflow": "0.8.1",
-    "@spectrum-web-components/card": "0.10.3"
+    "@spectrum-web-components/action-menu": "0.13.6",
+    "@spectrum-web-components/card": "0.10.3",
+    "@spectrum-web-components/divider": "0.4.2",
+    "@spectrum-web-components/icons-workflow": "0.8.2",
+    "@spectrum-web-components/theme": "0.9.3"
   }
 }

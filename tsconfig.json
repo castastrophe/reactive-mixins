@@ -31,9 +31,9 @@
     "resolveJsonModule": true
   },
   "include": [
-    "*.ts"
+    "**/*.ts"
   ],
   "exclude": [
-    "*.d.ts"
+    "**/*.d.ts"
   ]
 }

@@ -1,0 +1,38 @@
+# logging / private config
+yarn-error.log
+.DS_STORE
+.DS_Store
+.chrome
+.firefox
+.tsbuildinfo
+.rush
+.devcontainer
+tach-results.*
+.gitconfig
+
+# npm assets
+node_modules
+npm-debug.log
+package-lock.json
+
+# dependency folders
+coverage
+lib
+
+# build artifacts
+**/custom-elements.json
+
+**/*.svg.ts
+**/*.svg.js
+
+**/*.css.ts
+**/*.css.js
+
+**/*.js
+**/*.js.map
+**/*.d.ts
+!**/global.d.ts
+!**/local.d.ts
+
+# typescript assets
+*.tsbuildinfo
