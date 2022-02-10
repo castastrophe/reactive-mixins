@@ -1,0 +1,27 @@
+ue-container[s]:not([m],[l],[xl]) h2 {
+  color: lightblue;
+}
+
+ue-container[m]:not([l],[xl]) h2 {
+  color: lightpink;
+}
+
+body {
+  background: white;
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+sp-icon-app,
+sp-icon-show-menu {
+  width: 24px;
+}
+
+sp-action-menu {
+  min-width:var(--spectrum-popover-min-width,var(--spectrum-global-dimension-size-400));
+}
+
+#document {
+  min-height: 80vh;
+  padding: 20px;
+}
